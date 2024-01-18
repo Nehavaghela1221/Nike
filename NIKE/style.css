@@ -1,0 +1,188 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.one .nav-item .nav-link {
+	/* text-decoration: none; */
+	font-size: 10px;
+	color: black;
+}
+
+.two {
+	margin-left: 300px;
+}
+
+.forn {
+	margin-left: 100px;
+}
+
+.two .nav-item .nav-link {
+	/* text-decoration: none; */
+	font-size: 15px;
+	/* align-items: center; */
+	color: black;
+	/* margin-left: 200px; */
+
+}
+
+.navbar-brand :hover {
+	opacity: 0.5;
+}
+
+.nav-item :hover {
+	opacity: 0.5;
+}
+
+.hl {
+	display: none;
+}
+
+#help1:hover .hl {
+	display: flex;
+}
+
+.link {
+	padding: 10px;
+}
+
+.form-control:hover {
+	background-color: rgba(128, 128, 128, 0.281);
+}
+
+.text {
+	/* font-family: 'arial black'; */
+	font-size: 20px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-left: 50%;
+	transform: translateX(-200%);
+	opacity: 0;
+	animation: slide-in-anim 1.5s ease-out forwards;
+}
+
+.nike {
+	display: none;
+}
+
+#new:hover .nike {
+	display: flex;
+}
+
+@keyframes slide-in-anim {
+	20% {
+		opacity: 0;
+	}
+
+	60% {
+		transform: translateX(-45%);
+	}
+
+	75% {
+		transform: translateX(-52%);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(-50%);
+	}
+}
+
+
+.one1 {
+	/* display: flex; */
+	width: 150%;
+	height: 400px;
+	background-color: rebeccapurple;
+	margin: 10px;
+
+}
+
+.second-footer {
+	display: none;
+}
+
+.maintrending {
+	display: flex;
+}
+
+#fist-footer:hover .second-footer {
+	display: flex;
+}
+
+.navbar-brand {
+	margin-left: 50px;
+}
+
+.bar {
+	display: none;
+}
+
+.text1 {
+	position: absolute;
+	margin-top: -150px;
+	margin-left: 50px;
+}
+
+.text2 {
+	position: absolute;
+	margin-top: -120px;
+	margin-left: 50px;
+}
+
+.mainsign {
+	width: 25%;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+	/* .nav1 {
+		display: none;
+
+	} */
+
+	.bardetails {
+		display: none;
+	}
+
+	#bar1:hover .bardetails {
+		display: flex;
+	}
+
+	.mainsign {
+		width: 90%;
+	}
+
+	.two {
+		display: none;
+	}
+
+	.forn input {
+
+		display: none;
+	}
+
+	.img1 {
+		height: 500px;
+	}
+
+	.navbar-brand {
+		margin-left: 10px;
+	}
+
+	.bar {
+		display: flex;
+	}
+
+	#fist-footer {
+		display: none;
+	}
+
+	.maintrending {
+		display: block;
+	}
+}
